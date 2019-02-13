@@ -114,5 +114,21 @@ export PATH="$PATH:$(yarn global bin)"
 . /usr/share/z/z.sh
 
 # zsh theme setting
+
 export PATH="$PATH:/home/ding/.php-school/bin"
+
+# Manage my dotfiles!
 alias config='/usr/bin/git --git-dir=/home/ding/.myconfig/ --work-tree=/home/ding'
+
+# ibus
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
