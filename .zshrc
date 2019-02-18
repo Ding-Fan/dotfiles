@@ -111,7 +111,7 @@ export PATH=~/bin:$PATH
 export PATH="$PATH:$(yarn global bin)"
 
 # Use z
-. /usr/share/z/z.sh
+. ~/Tools/z/z.sh
 
 # zsh theme setting
 
@@ -132,3 +132,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
