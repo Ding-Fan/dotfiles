@@ -242,11 +242,15 @@ bindsym $mod+F6 exec mocp --stop
 bindsym $mod+F7 exec mocp --previous
 bindsym $mod+F8 exec mocp --next
 
+# Screen brightness controls
+bindsym XF86MonBrightnessUp exec light -A 5;
+bindsym XF86MonBrightnessDown exec light -U 5;
+
 # Redirect sound to headphones
 # bindsym $mod+m exec "/usr/local/bin/switch-audio-port"
 
 # lock screen
-bindsym $mod+Shift+z exec dm-tool lock
+# bindsym $mod+Shift+z exec dm-tool lock
 
 # Autostart apps
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
