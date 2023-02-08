@@ -1,0 +1,51 @@
+{
+    "vim.useSystemClipboard": true,
+    "editor.fontFamily": "'Inconsolata Nerd Font', 'LXGW WenKai', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 21,
+    "markdown.preview.fontFamily": "'LXGW WenKai', -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "cSpell.userWords": [
+        "aleo",
+        "animejs",
+        "ARIALBD",
+        "ARIALLGT",
+        "clsx",
+        "datetime",
+        "fontawesome",
+        "GFARMDAI",
+        "Noto",
+        "qrcode",
+        "Roboto",
+        "sumi",
+        "tailwindcss",
+        "truetype",
+        "txns",
+        "TXNV",
+        "Visx",
+        "wagmi"
+    ],
+    "vim.foldfix": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vim.easymotion": true,
+    "vim.leader": ",",
+    "vim.insertModeKeyBindings": [],
+    "vim.normalModeKeyBindingsNonRecursive": [],
+    "vim.visualModeKeyBindingsNonRecursive": [],
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "extensions.ignoreRecommendations": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.accessibilitySupport": "off",
+    "workbench.colorTheme": "One Monokai"
+}

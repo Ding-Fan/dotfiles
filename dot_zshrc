@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -99,3 +99,35 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+
+
+
+# export PATH=~/bin:$PATH
+
+# Add Yarn global
+# export PATH="$PATH:$(yarn global bin)"
+
+# Use z
+# . ~/Tools/z/z.sh
+
+# zsh theme setting
+
+# export PATH="$PATH:/home/ding/.php-school/bin"
+
+# Manage my dotfiles!
+# alias config='/usr/bin/git --git-dir=/home/ding/.myconfig/ --work-tree=/home/ding'
+
+# ibus
+# export GTK_IM_MODULE=ibus
+# export XMODIFIERS=@im=ibus
+# export QT_IM_MODULE=ibus
+
+# nvm
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
+
+# export PATH="$PATH:/home/ding/.gem/ruby/2.6.0/bin"
