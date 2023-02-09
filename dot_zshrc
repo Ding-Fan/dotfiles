@@ -115,9 +115,6 @@ source $ZSH/oh-my-zsh.sh
 # Add Yarn global
 # export PATH="$PATH:$(yarn global bin)"
 
-# Use z
-# . ~/Tools/z/z.sh
-
 # zsh theme setting
 
 # export PATH="$PATH:/home/ding/.php-school/bin"
@@ -130,17 +127,17 @@ source $ZSH/oh-my-zsh.sh
 # export XMODIFIERS=@im=ibus
 # export QT_IM_MODULE=ibus
 
-# nvm
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
-
 # export PATH="$PATH:/home/ding/.gem/ruby/2.6.0/bin"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+export PATH=$PATH:$JAVA_HOME/bin
+
+export ANDROID_HOME=~/Android
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
