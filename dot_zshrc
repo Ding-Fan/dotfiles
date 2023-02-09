@@ -77,7 +77,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git z zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -131,6 +131,23 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
+
+# if [[ ! -z $WSL_DISTRO_NAME ]];then
+	# alias adb='adb.exe'
+	# alias fastboot='fastboot.exe'
+	# alias aapt='aapt.exe'
+# fi
+
+alias yd="yarn dev"
+alias yb="yarn buildOut"
+
+# export GIT_EDITOR=nvim
+
+
+
+
 
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$PATH:$JAVA_HOME/bin
