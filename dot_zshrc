@@ -149,12 +149,20 @@ alias yb="yarn buildOut"
 
 
 
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+# export JAVA_HOME=$HOME/.jdks/corretto-1.8.0_362 
+export JAVA_HOME=$HOME/Applications/android-studio/jbr
 export PATH=$PATH:$JAVA_HOME/bin
 
 export ANDROID_HOME=~/Android
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# export ANDROID_SDK_ROOT=$ANDROID_HOME/Sdk
+# export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+# export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+
+# to make adb avaliable
+# sudo ln -s $ANDROID_HOME/Sdk/platform-tools/adb /bin/adb
 
 # THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
