@@ -1,0 +1,15 @@
+: 1684060715:0;tldr code
+: 1684060734:0;code --diff ~/.zshrc ~/.zshrc.pre-oh-my-zsh
+: 1684060928:0;git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k\
+
+: 1684060982:0;ls
+: 1684060985:0;pwd
+: 1684061021:0;chezmoi diff
+: 1684061027:0;chezmoi apply -v
+: 1684061073:0;nvim
+: 1684061083:0;nvim ~/.zshrc
+: 1684061143:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+: 1684061196:0;git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+: 1684061263:0;cd
+: 1684061268:0;chezmoi diff
+: 1684061273:0;chezmoi cd
